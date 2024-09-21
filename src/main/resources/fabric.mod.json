@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fcdmod",
+	"version": "${version}",
+	"name": "Fcd Mod",
+	"description": "Description...",
+	"authors": [
+		"CactiStudios"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fcdmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.upsidesatisfied.fcdmod.FcdMod"
+		],
+		"fabric-datagen": [
+			"net.upsidesatisfied.fcdmod.FcdModDataGenerator"
+		],
+		"client": [
+			"net.upsidesatisfied.fcdmod.FcdModClient"
+		]
+	},
+	"mixins": [
+		"fcdmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
