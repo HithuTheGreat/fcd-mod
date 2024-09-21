@@ -3,6 +3,7 @@ package net.upsidesatisfied.fcdmod;
 import net.fabricmc.api.ModInitializer;
 
 import net.upsidesatisfied.fcdmod.block.ModBlocks;
+import net.upsidesatisfied.fcdmod.item.ModItemGroups;
 import net.upsidesatisfied.fcdmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ public class FcdMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
