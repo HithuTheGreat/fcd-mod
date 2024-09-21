@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "group": "pink_garnet",
+  "ingredient": {
+    "item": "fcdmod:raw_pink_garnet"
+  },
+  "result": {
+    "id": "fcdmod:pink_garnet"
+  }
+}

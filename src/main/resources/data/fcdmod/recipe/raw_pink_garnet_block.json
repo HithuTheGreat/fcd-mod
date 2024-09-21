@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "group": "pink_garnet",
+  "ingredient": {
+    "item": "fcdmod:raw_pink_garnet_block"
+  },
+  "result": {
+    "id": "fcdmod:pink_garnet_block"
+  }
+}
