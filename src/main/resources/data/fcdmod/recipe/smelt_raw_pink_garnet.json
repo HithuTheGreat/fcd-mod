@@ -4,9 +4,9 @@
   "cookingtime": 200,
   "group": "pink_garnet",
   "ingredient": {
-    "item": "fcdmod:raw_pink_garnet_block"
+    "item": "fcdmod:raw_pink_garnet"
   },
   "result": {
-    "id": "fcdmod:pink_garnet_block"
+    "id": "fcdmod:pink_garnet"
   }
 }
