@@ -6,5 +6,8 @@
     "block.fcdmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
 
     "itemgroup.fcdmod.pink_garnet_items": "Pink Garnet Items",
-    "itemgroup.fcdmod.pink_garnet_blocks": "Pink Garnet Blocks"
+    "itemgroup.fcdmod.pink_garnet_blocks": "Pink Garnet Blocks",
+
+    "block.fcdmod.pink_garnet_ore": "Pink Garnet Ore",
+    "block.fcdmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore"
   }
