@@ -8,12 +8,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.upsidesatisfied.fcdmod.FcdMod;
+import net.upsidesatisfied.fcdmod.item.custom.ChiselItem;
 
 public class ModItems {
 
     public static final Item PINK_GARNET = RegisterItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = RegisterItem("raw_pink_garnet", new Item(new Item.Settings()));
-
+    public static final Item CHISEL = RegisterItem("chisel",new ChiselItem(new Item.Settings().maxDamage(32)));
 
     private static Item RegisterItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(FcdMod.MOD_ID, name), item);
