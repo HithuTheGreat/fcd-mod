@@ -2,6 +2,7 @@ package net.upsidesatisfied.fcdmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.upsidesatisfied.fcdmod.block.ModBlocks;
 import net.upsidesatisfied.fcdmod.item.ModItemGroups;
 import net.upsidesatisfied.fcdmod.item.ModItems;
@@ -15,7 +16,10 @@ public class FcdMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 	}
 }
