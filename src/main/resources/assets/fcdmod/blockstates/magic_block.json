@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fcdmod:block/magic_block"
+    }
+  }
+}
