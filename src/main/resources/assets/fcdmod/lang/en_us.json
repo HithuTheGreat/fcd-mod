@@ -12,5 +12,10 @@
     "itemgroup.fcdmod.pink_garnet_blocks": "Pink Garnet Blocks",
     "block.fcdmod.magic_block": "Magic Block",
     "block.fcdmod.pink_garnet_ore": "Pink Garnet Ore",
-    "block.fcdmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore"
+    "block.fcdmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+
+    "block.fcdmod.magic_block.tooltip": "This Block IS VERY Magical",
+    "item.fcdmod.chisel.shift_tooltip": "This Can Chisel Stuff (Mindblown? I know Its Impressive",
+    "item.fcdmod.chisel.tooltip": "Press §gShift§r for more info",
+    "item.fcdmod.cauliflower.tooltip": "This Is Good For Your Health"
   }
